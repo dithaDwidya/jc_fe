@@ -1,0 +1,112 @@
+.html
+    {
+        font-family:'Cabin', sans-serif;
+        font-size: 24px
+    }
+
+.body
+    {
+        background-color:grey;
+        /*margin: 10px;
+        padding: 2px;
+        padding-left: 10px;
+        line:right;*/
+      
+    }
+
+.container
+    {
+        padding: 10px;
+        margin: 10px;
+    }
+
+#header
+    {
+        margin-bottom: 30px;
+    }
+
+.logo
+    {
+        /*display: inline;*/
+    }
+
+.menu
+    {
+        float: right;
+    }
+
+.menu ul li
+    {
+        display: inline;   
+    }
+
+.menu ul li:hover
+    {
+        background-color: grey;
+    }
+
+.menu ul li a
+    {
+        text-decoration: none; /*style lebih spesific ke tag a*/
+        /*color: white;*/
+        color: white;
+        background-color: orange;
+        padding: 5px;
+
+    }
+
+#body
+    {
+        background-color: white;
+        /*column-count: 3; */
+        /*untuk membagi text menjadi 3 bagian*/
+    }
+
+#footer
+    {
+        text-align: right;
+        font-size: 0.75em;
+    }
+
+.flexcontainer
+    {
+        display: flex;
+    }
+
+.flexitem
+    {
+        margin: 10px;
+        background-color: grey;
+        width: 300px;
+        height: 300px;
+
+    }
+
+.flexitem:hover
+    {
+        transform: rotate(45deg);
+    }
+/*.myClass2
+    {
+        border-style: solid;
+        border-width: 0px;
+        /*margin: 14px;
+        margin-left: 1px;*/
+        /*padding: 2px;*/
+        /*padding-left: 10px;*/
+        /*background-color: white;
+    }
+
+
+.menu li
+    {
+        display: inline;
+        background-color: orange;/*background masing2 menu*/
+        /*margin-left: 2px; margin untuk background color*/
+        /*padding: 10px;
+        float: right;
+        
+    }**/
+
+
+    

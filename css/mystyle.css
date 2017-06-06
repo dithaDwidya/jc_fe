@@ -1,0 +1,76 @@
+html
+    {
+        /*font-family: 'Indie Flower', cursive;
+        font-family: 'Gloria Hallelujah', cursive;*/
+        font-family: Courier New, Courier, monospace;
+        font-size: 24px;
+    }
+
+/*warna untuk background*/
+body
+    {
+        background-color: #f2abd8;
+    }
+
+/*class untuk border*/
+.myClassParent
+    {
+        position: relative;
+        width: 400px;
+        height: 500px;
+        border: 5px solid red;
+        z-index: 1000;
+    }
+
+.myClass
+    {
+        border-style:double; /*dashed double dashed;
+        border-width: 8px;
+        border-color: black; /*mewarnai seluruh border*/
+        /*border-top-color: black ; mewarnai salah satu sisi
+        border-bottom-color: black;*/
+        background-color: #82757d;
+
+        margin: 10px; /*(jarak di luar elemen)margin diambil dari titik class sampai ujung halaman*/
+        padding: 10px; /*jarak di dalam elemen, jika ukuran di isi langsng 4 value -(top) -(right) -(left) -(bottom)*/
+        margin-left: 10px;
+        height: 100px; /*u ukuran dapat menggunakan pixel (px), persentase(%), 1em = 12px*/
+        width: 96%; /*ukuran border = 1/2 halaman*/
+
+        /*/*max-height: 50px;*/
+
+        outline-style: solid;
+        outline-width: 10px;
+
+        text-align: center; /*untuk mengatur posisi tulisan*/
+        text-transform: uppercase; /*untuk mengatur jenis tulisan ex: huruf besar semua(uppercase)*/
+        letter-spacing: 5px; /*jarak antar huruf*/
+        line-height: 2; /*2x lipat dari tulisan sebelumnya*/
+        word-spacing: 20px; /*jarak antar kata*/
+
+        /*position: fixed; /*posisi akan selalu dibawa berdasarkan layarnya*/
+        /*bottom: 0;*/
+
+        position: absolute; /*posisi akan selalu dibawah berdasarkan posisinya, relative= tampilan standar*/
+        bottom: 0;
+        z-index: -1;
+    }
+
+/*class untuk menu*/  
+.menu
+    {
+        background-color: aquamarine;/*background list menu*/
+    }
+
+.menu li
+    {
+        display: inline;
+        background-color: red;/*background masing2 menu*/
+        margin-right: 10px; /*margin untuk background color*/
+    }
+
+.menu li a
+    {
+        text-decoration: none; /*style lebih spesific ke tag a*/
+    }
+    
